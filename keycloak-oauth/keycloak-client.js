@@ -47,7 +47,7 @@ MeteorKeycloak.requestCredential = function(options, credentialRequestCompleteCa
         '&nonce=' + encodeURIComponent(Random.secret()) +
         '&response_mode=' + encodeURIComponent('query') +
         '&response_type=' + encodeURIComponent('code') +
-        '&scope=' + encodeURIComponent("oidc");
+        '&scope=' + encodeURIComponent("openid");
 
 
 
